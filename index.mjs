@@ -19,7 +19,7 @@ const bin = async() => {
 
   zip(currentProject);
   // const {} = history();
-  debugger;
+
 };
 
 bin();

@@ -1,4 +1,6 @@
-import fs from 'fs';
+import path from 'path';
+import { copyFile } from 'cp-file';
+import fs from 'fs-extra';
 import zip from 'compress-images';
 
 export default (project) => {
