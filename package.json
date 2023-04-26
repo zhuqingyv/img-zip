@@ -1,6 +1,6 @@
 {
   "name": "zip-img",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "bin": "index.mjs",
   "main": "index.mjs",
