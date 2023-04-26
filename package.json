@@ -2,8 +2,8 @@
   "name": "zip-img",
   "version": "1.0.2",
   "description": "",
-  "bin": "index.js",
-  "main": "index.js",
+  "bin": "index.mjs",
+  "main": "index.mjs",
   "type": "module",
   "scripts": {
     "size": "zfq ./project1/test.jpg",
