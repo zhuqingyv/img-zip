@@ -1,5 +1,4 @@
-import path from 'path';
-import { copyFile } from 'cp-file';
+import { copyFileSync } from 'cp-file';
 import fs from 'fs-extra';
 import zip from 'compress-images';
 
@@ -29,13 +28,13 @@ export default (project) => {
       if (size_output < size_in) {
         reporter.totalMin += size_in - size_output;
         reporter.totalCount += 1;
-        copyFile(path_out_new, input);
+        copyFileSync(path_out_new, input);
       }
       if (completed) {
         fs.remove('.cache');
         console.log(`MinSize: ${reporter.totalMin / 1024}kb`);
         console.log(`MinCount: ${reporter.totalCount}`);
-      }
+      };
     }
   );
 };

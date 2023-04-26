@@ -6,7 +6,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "size": "zfq ./project1/test.jpg",
+    "dev": "node index.mjs project1"
   },
   "repository": {
     "type": "git",
