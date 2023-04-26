@@ -1,0 +1,31 @@
+{
+  "name": "img-zip",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "index.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuqingyv/img-zip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuqingyv/img-zip/issues"
+  },
+  "homepage": "https://github.com/zhuqingyv/img-zip#readme",
+  "dependencies": {
+    "compress-images": "^2.0.5",
+    "cp-file": "^10.0.0",
+    "fs-extra": "^11.1.1",
+    "gifsicle": "^5.2.1",
+    "pngquant-bin": "^6.0.1"
+  },
+  "resolutions": {
+    "p-event": "5.0.1"
+  }
+}
